@@ -1,0 +1,226 @@
+html, body, div, span, applet, object, iframe,
+h1, h1, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+caption, tbody, tfoot, thead, th {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    font-weight:normal;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+:focus {
+    outline: 0;
+}
+ins {
+    text-decoration: none;
+}
+del {
+    text-decoration: line-through;
+}
+/*table {*/
+    /*border-collapse: collapse;*/
+    /*border-spacing: 0;*/
+/*}*/
+html {
+    height: 100%;
+}
+body {
+    font-family: Tahoma, Verdana, Helvetica, sans-serif;
+    font-size: 12px;
+    width: 100%;
+    height: 100%;
+    background-color: #d1d1d1;
+}
+a {
+    color: blue;
+    outline: none;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+p {
+    margin:0;
+}
+img {
+    border: none;
+}
+input {
+    vertical-align: middle;
+}
+
+.pageWrapper {
+    width: 1000px;
+    margin: 0 auto;
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    background: #fff;
+}
+
+.clear {
+    height:0px;
+    line-height:1px;
+    clear:both;
+}
+
+table tr.titleRow {
+    font-weight: bold;
+}
+
+/*header*/
+
+.header {
+    height: 100px;
+    width: 980px;
+    position: relative;
+    float: left;
+    padding: 0 10px 0 10px;
+    background: #eaf4ff;
+    outline: 1px #00ddde solid;
+}
+
+.headerProd {
+    height: 130px;
+    width: 980px;
+    position: relative;
+    float: left;
+    padding: 0 10px 0 10px;
+    background: #eaf4ff;
+    outline: 1px #00ddde solid;
+}
+
+.headerProd table.event td{
+    width: 196px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.headerProd table.event td textarea{
+    resize: none;
+}
+
+.headerProd table.event td.chooseEvent{
+    text-align: left;
+}
+
+.header h1 {
+    font-size: 32px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.header form#product input#productDescription {
+    width: 400px;
+}
+
+/* header end */
+
+/* content */
+
+.content {
+    width: 980px;
+    padding: 20px 10px 0 10px;
+    position: relative;
+    float: left;
+}
+
+div.content h1.documentTitle {
+    font-size: 32px;;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+div.content table.addDocument {
+    margin: 0 auto;
+}
+
+div.content table.addDocument textarea {
+    width: 93%;
+    resize: none;
+}
+
+div.content hr {
+    margin: 10px 0;
+}
+
+div.form {
+    padding: 0 0 20px 0;
+}
+
+div.form textarea {
+    resize: none;
+    width: 100%;
+}
+
+form#product table tr td {
+    vertical-align: top;
+}
+
+table.data td {
+    width: 100px;
+}
+
+table.data td.tableHead {
+    font-size: 14px;
+    width: 200px;
+}
+
+table.viewData td{
+    font-size: 14px;
+    width: 196px;
+}
+
+/* content end */
+
+/* footer */
+
+.hFooter {
+    height: 100px;
+    width: 100%;
+    position: relative;
+    clear: both;
+}
+
+.footer {
+    height: 100px;
+    width: 980px;
+    padding: 0 10px 0 10px;
+    outline: 1px black solid;
+    position: relative;
+    background: rgba(0, 0, 0, 0.18);
+    margin: -100px auto 0px;
+}
+
+.footer h1 {
+    font-size: 42px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.footer ul.menu {
+    margin-left: 20px;
+    list-style-type: disc;
+}
+
+/* footer end */
+
+
+
+
